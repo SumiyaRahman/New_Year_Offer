@@ -150,14 +150,14 @@ section{
     line-height: 56px;
     letter-spacing: 0%;
     margin-bottom: 48px;
- }
- .place-date-time h4 .time-title{
+}
+.place-date-time h4 .time-title{
     color: #FF0000;
- }
- .join-btn-container{
+}
+.join-btn-container{
     text-align: center;
- }
- .join-btn{
+}
+.join-btn{
     border: none;
     border-radius: 8px;
     color: #fff;
@@ -165,98 +165,98 @@ section{
     font-weight: bold;
     background-color: #FF0000;
     padding: 16px 32px;
- }
+}
 
- /* new best offer */
- .new-offer-section {
+/* new best offer */
+.new-offer-section {
     display: flex;
     justify-content: center;
- }
- .new-offer{
+}
+.new-offer{
     display: flex;
     align-items: center;
- }
- .new-best-offer-container{
+}
+.new-best-offer-container{
     width: 393px;
- }
- .best-offer-img-container{
+}
+.best-offer-img-container{
     margin: 0 118px 0 70px;
     width: 463px;
- }
- .year-img-container{
+}
+.year-img-container{
     width: 140px;
- }
- .year-container{
+}
+.year-container{
     width: 276px;
- }
- .new-best-offer{
+}
+.new-best-offer{
     font-size: 24px;
     color: #ff0000;
     font-weight: 500;
     margin-bottom: 16px;
- }
- .comming-soon{
+}
+.comming-soon{
     font-size: 48px;
     font-family: "Merriweather", serif;
     margin-bottom: 22px;
- }
- .new-offer-img{
+}
+.new-offer-img{
     border: 15px solid #FF0000;
     border-radius: 50%;
     padding: 49.8px;
     width: 100%;
- }
- .year-2024{
+}
+.year-2024{
     font-size: 48px;
     color: #FF0000;
     margin-bottom: 16px;
     width: 100%;
- }
+}
 
- /* holiday section */
- .holiday-section{
+/* holiday section */
+.holiday-section{
     height: 993.07px;
- }
- .holiday-sub-title{
+}
+.holiday-sub-title{
     color: rgb(7, 2, 17);
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 16px;
- }
- .holiday-title{
+}
+.holiday-title{
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     text-align: center;
     margin-bottom: 28px;
- }
- .holiday-title span{
+}
+.holiday-title span{
     font-family: Merriweather;
     color: #FF0000 !important;
- }
- .holiday-description{
+}
+.holiday-description{
     text-align: center;
     margin-bottom: 64px;
- }
- .holiday-picture{
+}
+.holiday-picture{
     background-image: url("../images/Rectangle_2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 229px;
     border-radius: 16px 0px 16px 16px;
- }
- .holiday-img-2{
+}
+.holiday-img-2{
     width: 305.69px;
- }
- .holiday-bg-solid{
+}
+.holiday-bg-solid{
     width: 1320px;
     height: 662.07px;
     position: relative;
- }
- .bg-img{
+}
+.bg-img{
     width: 1320px;
     height: 229px;
     background-image: url(../images/Rectangle_2.png);
@@ -265,19 +265,128 @@ section{
     background-repeat: no-repeat;
     position: absolute;
     top: 75.5%;
- }
- .img-container{
+}
+.img-container{
     display: flex;
     justify-content: center;
- }
- .img-left{
+}
+.img-left{
     width: 796.46px;
     height: 662.07px;
     position: relative;
     z-index: 1;
- }
- .img-right{
+}
+.img-right{
     width: 305.69px;
     height: 305.69px;
     padding: 9.17px;
- }
+}
+
+/* gift */
+.gift-subtitle{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.gift-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.gift-row{
+    margin-top: 48px;
+}
+.gift-col{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.gifts img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+/* subscribe */
+.subscribe-section{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+}
+.sub-description{
+    text-align: center;
+}
+.sub-img{
+    margin-bottom: 46.25px;
+}
+.subcribe-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.subscribe-container{
+    text-align: center;
+    margin-top: 48px;
+}
+.subscribe-input {
+    padding: 10px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    width: 300px;
+    font-size: 16px;
+}
+.subscribe-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 0 50px 50px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* footer */
+.footer{
+    background-color: #070211;
+    padding: 120px 140px;
+}
+.footer-description{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.address{
+    line-height: 40px;
+}
+.right-description, .left-description{
+    color: #fff;
+    font-size: 24px;
+}
+.fa-phone-volume, .fa-globe{
+    margin-right: 16px;
+}
+.phone-icon{
+    margin-bottom: 16px;
+}
+.icons{
+    text-align: center;
+    margin: 48px 0;
+}
+.footer-hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.icon-space{
+    margin-right: 24px;
+}
+.copy-right{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
