@@ -9,10 +9,14 @@
     box-sizing: border-box;
     font-family: Inter;
 }
+/* shared styles */
 .body-margin{
     margin: 0 auto;
 }
-
+.section-divider{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 /* hesder section */
 .header-section{
     background-image: linear-gradient(180.00deg, #070211,#07021100 100%),url("../images/Banner\ Image.png"); 
@@ -39,9 +43,10 @@
 }
 
 /* main section style */
-main section{
-    margin: 120px 0;
-}
+/* main section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+} */
 .offer-description{
     display: flex;
     justify-content: center;
@@ -120,3 +125,38 @@ main section{
 .year-2024{
     width: 319.83px;
 }
+
+/* party timing section */
+.party-timing{
+    background-image: linear-gradient(#EF3B36, #FFFFFF);
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.place-date-time h4{
+    text-align: center;
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+ }
+ .place-date-time h4 .time-title{
+    color: #FF0000;
+ }
+ .join-btn-container{
+    text-align: center;
+ }
+ .join-btn{
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FF0000;
+    padding: 16px 32px;
+ }
