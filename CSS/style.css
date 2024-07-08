@@ -20,6 +20,11 @@
 section{
     width: 1320px;
 }
+.section-descriptions{
+    font-size: 20px;
+    color: #07021199;
+    line-height: 32px;
+}
 /* hesder section */
 .header-section{
     background-image: linear-gradient(180.00deg, #070211,#07021100 100%),url("../images/Banner\ Image.png"); 
@@ -45,11 +50,7 @@ section{
     color: #ffff;
 }
 
-/* main section style */
-/* main section{
-    margin-top: 120px;
-    margin-bottom: 120px;
-} */
+/* offer section */
 .offer-description{
     display: flex;
     justify-content: center;
@@ -82,9 +83,13 @@ section{
     text-align: center;
     margin-bottom: 48px;
 }
-.offers img{
+.offer-img-container{
     width: 802.9px;
 }
+.offers img{
+    width: 100%;
+}
+
 
 /* welcome party */
 .welcome-party{
@@ -160,4 +165,50 @@ section{
     font-weight: bold;
     background-color: #FF0000;
     padding: 16px 32px;
+ }
+
+ /* new best offer */
+ .new-offer-section {
+    display: flex;
+    justify-content: center;
+ }
+ .new-offer{
+    display: flex;
+    align-items: center;
+ }
+ .new-best-offer-container{
+    width: 393px;
+ }
+ .best-offer-img-container{
+    margin: 0 118px 0 70px;
+    width: 463px;
+ }
+ .year-img-container{
+    width: 140px;
+ }
+ .year-container{
+    width: 276px;
+ }
+ .new-best-offer{
+    font-size: 24px;
+    color: #ff0000;
+    font-weight: 500;
+    margin-bottom: 16px;
+ }
+ .comming-soon{
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 22px;
+ }
+ .new-offer-img{
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 49.8px;
+    width: 100%;
+ }
+ .year-2024{
+    font-size: 48px;
+    color: #FF0000;
+    margin-bottom: 16px;
+    width: 100%;
  }
